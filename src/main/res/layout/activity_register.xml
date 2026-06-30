@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    android:orientation="vertical"
+    android:padding="25dp"
+    android:gravity="center"
+    tools:context=".RegisterActivity">
+
+<TextView
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="РЕГИСТРАЦИЯ"
+android:textColor="@color/bright_red"
+android:textSize="36sp"
+    android:textStyle="bold"
+    android:layout_marginBottom="40dp"/>
+
+<EditText
+android:id="@+id/regFio"
+android:layout_width="match_parent"
+android:layout_height="50dp"
+android:hint="ФИО"
+android:textColorHint="#AAAAAA"
+    android:textColor="@color/dark_text_color"
+    android:background="@drawable/rounded_edittext_bg"
+    android:paddingStart="15dp"
+    android:paddingEnd="15dp"
+    android:layout_marginBottom="15dp"
+    android:inputType="textPersonName"/>
+
+<EditText
+android:id="@+id/regPhone"
+android:layout_width="match_parent"
+android:layout_height="50dp"
+android:hint="Телефон"
+android:textColorHint="#AAAAAA"
+android:textColor="@color/dark_text_color"
+android:background="@drawable/rounded_edittext_bg"
+android:paddingStart="15dp"
+android:paddingEnd="15dp"
+android:layout_marginBottom="15dp"
+android:inputType="phone"/>
+
+<EditText
+android:id="@+id/regEmail"
+android:layout_width="match_parent"
+android:layout_height="50dp"
+android:hint="Email"
+android:textColorHint="#AAAAAA"
+android:textColor="@color/dark_text_color"
+android:background="@drawable/rounded_edittext_bg"
+android:paddingStart="15dp"
+android:paddingEnd="15dp"
+android:layout_marginBottom="15dp"
+android:inputType="textEmailAddress"/>
+
+<EditText
+android:id="@+id/regPass"
+android:layout_width="match_parent"
+android:layout_height="50dp"
+android:hint="Пароль"
+android:textColorHint="#AAAAAA"
+android:textColor="@color/dark_text_color"
+android:background="@drawable/rounded_edittext_bg"
+android:paddingStart="15dp"
+android:paddingEnd="15dp"
+android:layout_marginBottom="25dp"
+    android:inputType="textPassword"/>
+
+<Button
+android:id="@+id/registerBtn"
+android:layout_width="match_parent"
+android:layout_height="55dp"
+    android:text="СОЗДАТЬ АККАУНТ"
+    android:backgroundTint="@color/bright_red"
+    android:textColor="@color/white"
+    android:textSize="18sp" />
+
+    <!-- Если в RegisterActivity.java есть кнопка/текст для перехода на логин,
+         можно добавить что-то вроде этого:
+    <TextView
+        android:id="@+id/goToLogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Уже есть аккаунт? Войти"
+        android:textColor="@color/white"
+        android:layout_marginTop="20dp"
+        android:textSize="16sp"/>
+    -->
+
+    </LinearLayout>

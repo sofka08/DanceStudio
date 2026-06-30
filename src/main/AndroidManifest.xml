@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.queststudioapp">
+
+    <!-- Разрешение на интернет -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <!-- Разрешения для Glide и Firebase Storage -->
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"
+        android:maxSdkVersion="32" />
+    <uses-permission android:name="android.permission.READ_MEDIA_IMAGES"
+        android:minSdkVersion="33"/>
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.QuestStudioApp"
+        tools:targetApi="31">
+
+        <!-- Главный экран (Вход) -->
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- Экран регистрации -->
+        <activity
+            android:name=".RegisterActivity"
+            android:exported="false" />
+
+        <!-- Экран главного меню -->
+        <activity
+            android:name=".HomeActivity"
+            android:exported="false" />
+
+        <!-- Экран списка квестов -->
+        <activity
+            android:name=".AllQuestsActivity"
+            android:exported="false" />
+
+        <!-- Экран деталей квеста -->
+        <activity
+            android:name=".QuestDetailActivity"
+            android:exported="false" />
+
+        <!-- Экран бронирования -->
+        <activity
+            android:name=".BookingActivity"
+            android:exported="false" />
+
+        <!-- Экран моих бронирований -->
+        <activity
+            android:name=".MyBookingsActivity"
+            android:exported="false" />
+
+        <!-- Экран управления актерами (для админа) -->
+        <activity
+            android:name=".AdminActorsActivity"
+            android:exported="false" />
+        <activity android:name=".EditActorActivity" />
+        <activity android:name=".EditQuestActivity" android:exported="false" />
+        <activity android:name=".CategoriesActivity" android:exported="false" />
+        <activity android:name=".ReviewsActivity" />
+
+    </application>
+
+</manifest>

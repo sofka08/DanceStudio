@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="25dp"
+    tools:context=".MainActivity">
+
+<TextView
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="QUEST STUDIO"
+    android:textColor="@color/bright_red"
+    android:textSize="36sp"
+    android:textStyle="bold"
+    android:layout_marginBottom="50dp"/>
+
+<EditText
+android:id="@+id/emailLogin"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:hint="Email"
+    android:textColorHint="#AAAAAA"
+    android:textColor="@color/dark_text_color"
+    android:background="@drawable/rounded_edittext_bg"
+    android:paddingStart="15dp"
+    android:paddingEnd="15dp"
+    android:layout_marginBottom="15dp"
+    android:inputType="textEmailAddress"/>
+
+<EditText
+android:id="@+id/passwordLogin"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:hint="Пароль"
+    android:textColorHint="#AAAAAA"
+    android:textColor="@color/dark_text_color"
+    android:background="@drawable/rounded_edittext_bg"
+    android:paddingStart="15dp"
+    android:paddingEnd="15dp"
+    android:layout_marginBottom="25dp"
+    android:inputType="textPassword"/>
+
+<Button
+android:id="@+id/loginBtn"
+    android:layout_width="match_parent"
+    android:layout_height="55dp"
+    android:text="ВОЙТИ"
+    android:backgroundTint="@color/dark_red"
+    android:textColor="@color/white"
+    android:textSize="18sp"
+    android:layout_marginBottom="15dp"/>
+
+    <Button
+        android:id="@+id/registerBtn"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginBottom="15dp"
+        android:backgroundTint="@color/dark_red"
+        android:text="Зарегистрироваться"
+        android:textColor="@color/white"
+        android:textSize="18sp" />
+
+    <Button
+android:id="@+id/guestLoginBtn"
+    android:layout_width="match_parent"
+    android:layout_height="55dp"
+    android:text="Войти как гость"
+    android:backgroundTint="#00333333"
+    android:textColor="@color/dark_red"
+    android:textSize="18sp"
+    android:layout_marginTop="-14dp" />
+
+    </LinearLayout>

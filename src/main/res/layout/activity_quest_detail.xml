@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context=".QuestDetailActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <ImageView
+            android:id="@+id/detailQuestImage"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/placeholder_image"
+            android:layout_marginBottom="15dp"/>
+
+        <TextView
+            android:id="@+id/detailQuestName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Название Квеста"
+            android:textColor="@color/bright_red"
+            android:textSize="28sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="10dp"/>
+
+        <TextView
+            android:id="@+id/detailQuestCategory"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Жанр"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            android:layout_marginBottom="5dp"/>
+
+        <TextView
+            android:id="@+id/detailQuestDifficulty"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Сложность"
+            android:textColor="@color/bright_red"
+            android:textSize="16sp"
+            android:layout_marginBottom="15dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Описание:"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="8dp"/>
+
+        <TextView
+            android:id="@+id/detailQuestDescription"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Описание..."
+            android:textColor="#CCCCCC"
+            android:textSize="15sp"/>
+
+        <Button
+            android:id="@+id/btnBookQuest"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="30dp"
+            android:text="ЗАБРОНИРОВАТЬ"
+            android:backgroundTint="@color/bright_red"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            android:layout_marginBottom="10dp"/>
+
+        <Button
+            android:id="@+id/btnGoToReviews"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="ОТЗЫВЫ"
+            android:backgroundTint="@color/gray"
+            android:textColor="@color/white"
+            android:textSize="18sp"/>
+
+    </LinearLayout>
+</ScrollView>

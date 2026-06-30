@@ -1,0 +1,24 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Основная тема приложения -->
+    <style name="Base.Theme.QuestStudioApp" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Здесь можно настроить основные цвета темы, если захочешь -->
+        <item name="colorPrimary">@color/bright_red</item>
+        <item name="android:statusBarColor">@color/black</item>
+    </style>
+
+    <style name="Theme.QuestStudioApp" parent="Base.Theme.QuestStudioApp" />
+
+    <!-- Стиль для кнопок категорий (исправлено) -->
+    <style name="CategoryButtonStyle" parent="Widget.MaterialComponents.Button">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">70dp</item>
+        <item name="android:layout_marginBottom">15dp</item>
+        <item name="android:backgroundTint">@color/gray</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+</resources>
+
