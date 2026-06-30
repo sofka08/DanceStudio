@@ -1,7 +1,7 @@
 # DanceStudio
 Мобильное приложение для автоматизации записи на занятия в танцевальной студии.
 
-<img width="640" height="640" alt="image" src="https://github.com/user-attachments/assets/8005e4b6-73c2-4e90-a862-1ea0f67448c5" />
+<img width="400" height="400" alt="image" src="https://github.com/user-attachments/assets/8005e4b6-73c2-4e90-a862-1ea0f67448c5" />
 
 ## О проекте
 
@@ -44,7 +44,7 @@
 ### Шаги для запуска
 1. Перейти по QR-коду на Яндекс.Диск и скачать APK-файл
   
-  <img width="499" height="491" alt="image" src="https://github.com/user-attachments/assets/e0c82c64-0d4b-4cc4-b819-eb0d51f3dc82" />
+<img width="300" height="300" alt="image" src="https://github.com/user-attachments/assets/e0c82c64-0d4b-4cc4-b819-eb0d51f3dc82" />
   
 2. Установить приложение на свое устройство
 3. Запустить установленное приложение
