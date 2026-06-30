@@ -1,7 +1,7 @@
 # DanceStudio
 Мобильное приложение для автоматизации записи на занятия в танцевальной студии.
 
-<img width="640" height="640" alt="image" src="https://github.com/user-attachments/assets/f6a94aba-b1a1-4aff-b8c0-81fb6c3dea5c" />
+<img width="640" height="640" alt="image" src="https://github.com/user-attachments/assets/8005e4b6-73c2-4e90-a862-1ea0f67448c5" />
 
 ## О проекте
 
